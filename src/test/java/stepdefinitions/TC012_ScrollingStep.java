@@ -40,5 +40,7 @@ public class TC012_ScrollingStep {
 
         // We can then use this value to assert that the correct amount of scrolling has taken place
         Assert.assertEquals(amountToScroll, offSet);
+
+        driver.quit();
     }
 }
